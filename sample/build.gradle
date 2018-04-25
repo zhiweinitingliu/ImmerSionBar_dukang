@@ -1,8 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.zhiweinitingliu'
-
 android {
     compileSdkVersion 26
     buildToolsVersion '26.0.2'
@@ -10,6 +8,7 @@ android {
         applicationId "com.gyf.immersionbar"
         minSdkVersion 18
         targetSdkVersion 26
+        group='com.github.zhiweinitingliu'
         versionCode 1
         versionName "2.3.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
