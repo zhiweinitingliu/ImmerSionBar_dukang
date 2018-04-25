@@ -4,11 +4,11 @@ apply plugin: 'com.github.dcendents.android-maven'
 android {
     compileSdkVersion 26
     buildToolsVersion '26.0.2'
+    group='com.github.zhiweinitingliu'
     defaultConfig {
         applicationId "com.gyf.immersionbar"
         minSdkVersion 18
         targetSdkVersion 26
-        group='com.github.zhiweinitingliu'
         versionCode 1
         versionName "2.3.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
